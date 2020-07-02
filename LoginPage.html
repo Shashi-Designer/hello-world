@@ -23,7 +23,16 @@
    <script language ="javascript">
              
    function check(form) /* function to check userid and password */
-             
+   {
+        if (form.userid.value == "myuserid") && (form.pswrd.value == "Shashi")
+        {
+            window.open ('target.html')
+        }
+        else
+        {
+            alert ("Error password or Username")
+        }           
+   }          
              
    </script>
              
